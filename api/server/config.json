@@ -1,0 +1,30 @@
+{
+  "restApiRoot": "/api",
+  "host": "data.mawto.com",
+  "port": 3000,
+  "remoting": {
+    "context": {
+      "enableHttpContext": false
+    },
+    "rest": {
+      "normalizeHttpPath": false,
+      "xml": false
+    },
+    "json": {
+      "strict": false,
+      "limit": "200kb"
+    },
+    "urlencoded": {
+      "extended": true,
+      "limit": "200kb"
+    },
+    "cors": {
+      "origin": true,
+      "credentials": true
+    },
+    "errorHandler": {
+      "disableStackTrace": false
+    }
+  },
+  "legacyExplorer": false
+}

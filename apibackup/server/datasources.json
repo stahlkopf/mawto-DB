@@ -1,0 +1,12 @@
+{
+  "rethinkdb": {
+    "url": "http://atom@localhost:28015/Mawto",
+    "name": "rethinkdb",
+    "connector": "rethinkdb"
+  },
+  "db": {
+    "name": "db",
+    "user": "",
+    "connector": "memory"
+  }
+}

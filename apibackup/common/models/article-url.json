@@ -1,0 +1,44 @@
+{
+  "name": "ArticleURL",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "link": {
+      "type": "string",
+      "id": true,
+      "index": true
+    },
+    "id": {
+      "type": "any",
+      "id": false
+    },
+    "animated": {
+      "type": "number"
+    },
+    "summarizable": {
+      "type": "number"
+    },
+    "summarized": {
+      "type": "number"
+    },
+    "dateinserted": {
+      "type": "any",
+      "index": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY"
+    }
+  ],
+  "methods": {}
+}
