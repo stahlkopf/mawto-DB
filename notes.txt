@@ -1,0 +1,5 @@
+sudo ssh -L 8080:localhost:8080 root@159.203.16.47
+ 
+r.db('rethinkdb').table('cluster_config').get('auth').update({auth_key: atom})
+
+export HOST=0.0.0.0 PORT=4000 slc arc

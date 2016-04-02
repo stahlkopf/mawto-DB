@@ -1,0 +1,40 @@
+{
+  "name": "ArticleMedia",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "animation": {
+      "type": "string"
+    },
+    "dateinserted": {
+      "type": "date"
+    },
+    "id": {
+      "type": "string"
+    },
+    "images": {
+      "type": [
+        "string"
+      ]
+    },
+    "link": {
+      "type": "string"
+    },
+    "movies": {
+      "type": [
+        "string"
+      ]
+    },
+    "top_image": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,38 @@
+{
+  "name": "ArticleSummaryBasic",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "category": {
+      "type": "string"
+    },
+    "summarylong": {
+      "type": "string"
+    },
+    "summaryshort": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string",
+      "id": true,
+      "index": true
+    },
+    "id": {
+      "type": "string"
+    },
+    "dateinserted": {
+      "type": "any"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
