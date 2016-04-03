@@ -1,0 +1,17 @@
+{
+  "rethinkdb": {
+    "host": "localhost",
+    "port": 28015,
+    "auth_key": "atom",
+    "db": "Mawto"
+  },
+  "s3": {
+    "key": "AKIAJ3TY4JZMZMSYNCHQ",
+    "secret": "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",
+    "bucket": "mawto-db-backup",
+    "destination": "/"
+  },
+  "cron": {
+    "time": "00:00"
+  }
+}

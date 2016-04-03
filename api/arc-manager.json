@@ -1,0 +1,12 @@
+{
+  "ids": {
+    "ManagerHost": 4,
+    "LoadBalancer": 1
+  },
+  "models": {
+    "ManagerHost": {
+      "d3f71d1a-7519-4acb-8c82-4eedc33553b3": "{\"id\":\"d3f71d1a-7519-4acb-8c82-4eedc33553b3\",\"host\":\"data.mawto.com\",\"port\":8701,\"actions\":[\"delete\",\"edit\",\"env-set\",\"env-get\",\"start\"],\"protocol\":\"http\",\"created\":1459684963143,\"error\":null,\"errorType\":null,\"app\":{\"name\":\"loopback-rethinkdb-example\",\"version\":null},\"processes\":{\"pids\":[]}}"
+    },
+    "LoadBalancer": {}
+  }
+}

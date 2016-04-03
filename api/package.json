@@ -1,5 +1,5 @@
 {
-  "name": "loopback-rethinkdb-example",
+  "name": "mawtoDB-api",
   "version": "1.0.0",
   "main": "server/server.js",
   "scripts": {
@@ -8,14 +8,14 @@
   "dependencies": {
     "compression": "^1.0.3",
     "errorhandler": "^1.1.1",
-    "loopback": "^2.8.0",
+    "loopback": "^3.0.0-alpha.1",
     "loopback-boot": "^2.6.5",
     "loopback-connector-rethinkdb": "git://github.com/fuwaneko/loopback-connector-rethinkdb",
-    "loopback-datasource-juggler": "^2.7.0",
+    "loopback-datasource-juggler": "^3.0.0-alpha.3",
     "serve-favicon": "^2.0.1"
   },
   "optionalDependencies": {
-    "loopback-explorer": "^1.1.0"
+    "loopback-explorer": "^2.0.2"
   },
   "devDependencies": {
     "jshint": "^2.5.6"
@@ -24,5 +24,5 @@
     "type": "",
     "url": ""
   },
-  "description": "loopback-rethinkdb-example"
+  "description": "mawtoDB-api"
 }

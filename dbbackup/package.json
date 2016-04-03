@@ -1,0 +1,33 @@
+{
+  "name": "rethinkdb_nightly",
+  "version": "0.0.6",
+  "description": "A tool to help backup your rethinkdb cluster to s3.",
+  "main": "index.js",
+  "bin": {
+    "rethinkdb_nightly": "./bin/rethinkdb_nightly.js"
+  },
+  "preferGlobal": "true",
+  "scripts": {
+    "start": "node ./bin/rethinkdb_nightly.js ./config.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/robconery/rethinkdb_nightly.git",
+  "keywords": [
+    "RethinkDB",
+    "S3",
+    "backup"
+  ],
+  "author": ["Rob Conery <rob@conery.io>","Swift <theycallmeswift@gmail.com>"],
+  "license": "Beerware",
+  "dependencies": {
+    "async": "~0.1.22",
+    "cli": "~0.4.4-2",
+    "cli-color": "~0.2.1",
+    "cron": "~1.0.1",
+    "knox": "~0.8.0",
+    "moment": "^2.9.0"
+  },
+  "engines": {
+    "node": ">=0.8"
+  }
+}
